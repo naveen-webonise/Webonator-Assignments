@@ -1,0 +1,40 @@
+assessments = {
+"_id": "1", 
+"subject": string, 
+"min_marks": int,
+"max_marks": int, 
+"duration": int,
+"question": [
+		{ "question_id": int,
+		  "question": string,
+		  "options": [
+				{
+					"option1": string,
+					"option2": string,
+					"option3": string,
+					"option4": string
+					
+				}
+			     ]
+		"answer": string
+		}
+	   ]
+}
+
+
+student = {
+"_id": int,
+"name": string,
+"email": string,
+"password": string,
+"assessments": int,
+"answers":
+	  [
+		{
+			"question_id": int,
+			"answer_id": int,
+			"answer": string,
+			"score_count": int
+		}
+	]
+}
