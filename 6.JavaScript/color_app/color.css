@@ -1,0 +1,40 @@
+.button {
+    text-align:center;
+}
+
+
+
+table {
+    margin-left:auto;
+    margin-right:auto;
+
+    border: 50px;
+    background-color: #ccc;
+    width: 250px;
+    height: 250px;
+
+}
+tr {
+  height: 40px;
+  width: 180px;
+
+}
+
+td {
+
+    font-size: 40px;
+    text-align: center;
+    color: black;
+    border: 5px;
+    background-color: #eee;
+    color: black;
+    width: 40px;
+
+
+}
+td:hover{
+  border-style:dotted;
+}
+td:onClick{
+  this.backgroundColor='#FFCCCC';
+}
