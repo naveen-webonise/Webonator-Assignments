@@ -1,0 +1,76 @@
+use examdb
+
+db.createCollection("assessment")
+db.createCollection("student")
+
+db.student.drop()
+
+
+
+assessment_details = {"_id": "1",
+  "subject": "english",
+  "min_marks": "5",
+  "max_marks": "10",
+  "duration": "60",
+  "question": [
+                {
+                  "question_id": "1",
+                  "question": "What is a verb?",
+                  "answer": "action",
+                  "options": [
+                  {
+                      "option1": "action",
+                      "option2": "task",
+                      "option3": "performance",
+                      "option4": "journey"
+                  }
+
+                  ]
+                }
+              ]
+ };
+
+student_details = {
+"_id": "2",
+"name": "raj",
+"email": "raj@gmail.com",
+"password": "bds",
+"assessment": "1",
+"answers":
+    [
+    {
+      "question_id": "1",
+      "answer_id": "1",
+      "answer": "task",
+      "score_count": "0"
+    }
+  ]
+};
+
+
+db.assessment.insert(assessment_details);
+
+db.student.insert(student_details);
+
+
+db.assessment.find().pretty();
+
+db.student.find().pretty();
+
+
+
+
+db.student.update({'name':'raman'},{$set:{'name':'ramanujan'}})
+
+db.assessment.update({'max_marks':'10'},{$set:{'max_marks':'35'}})
+
+db.student.ensureIndex({email:"text"})
+db.student.find({$text:{$search:"raman@gmail.com"}}).pretty()
+
+db.student.find({},{"name":1,"_id":0})
+db.student.find({},{"name":1,"_id":0}).limit(1)
+
+db.assessment.find({},{"subject":1,"_id":0})
+db.assessment.find({},{"subject":1,"_id":0}).limit(1)
+
+db.assessment.remove({'subject':'maths'})

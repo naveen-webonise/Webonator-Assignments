@@ -1,0 +1,15 @@
+BUSINESS LOGIC FOR VIRTUAL UNIVERSITY
+
+1)The virtual university should consist of diffrent courses in which students would enrol.  
+The required fees for diffrent courses needs to be paid by the students online.
+
+2)After successful payment of fees, students should be given access to the lectures and study materials.
+
+3)A URL should be given to the students to access the related course study materials 
+and lectures and also the study materials should be dispatched to the students to their address through any postal service.
+
+4)The faculty would be able to update the study materials in the online repository.
+
+5)The examination should be scheduled and the examination should be conducted. After the evaluation the results should be declared.
+
+6)E-certificate should be mailed to the students and the certificate should be dispatched to the students address.

@@ -1,0 +1,6 @@
+MongoDB is schema-less database unlike MySQL which follows a schema which has constraints
+associated with it.
+MongoDB is very flexible which can meet the changing design schema which is essential
+for the modern data which is changing.
+MongoDB has one or more collections in a single database. Each document
+in a collection has a unique object ID associated with it.
