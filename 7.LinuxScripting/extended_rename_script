@@ -1,5 +1,7 @@
 #!/bin/bash
 cd /home/webonise/assignment;
+fileCount = 0;
+
 for i in *.txt;
 do
 
@@ -9,7 +11,7 @@ do
 
 done
 
-ls *.txt
+
 
 for i in x*;
 do
@@ -17,7 +19,8 @@ do
   echo "enter new file name of $i";
   read filename;
   mv $i $filename;
-  ls $filename
-
+  echo "$filename"
+  echo "$filename" >> /home/webonise/assignment.log
 done
-ls
+ls *.txt
+ls *.txt >> /home/webonise/assignment.log
