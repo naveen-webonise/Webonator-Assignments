@@ -1,0 +1,23 @@
+#!/bin/bash
+cd /home/webonise/assignment;
+for i in *.txt;
+do
+
+  echo "enter new file name of $i";
+  read filename;
+  mv $i $filename;
+
+done
+
+ls *.txt
+
+for i in x*;
+do
+
+  echo "enter new file name of $i";
+  read filename;
+  mv $i $filename;
+  ls $filename
+
+done
+ls
