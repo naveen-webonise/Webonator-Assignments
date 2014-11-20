@@ -1,0 +1,8 @@
+#!/bin/bash
+cd /home/webonise/assignment;
+#Lists firs four files
+for i in `ls | head -n 4`;
+do
+#Moves files into ~/public_html
+mv $i ~/public_html/;
+done;
