@@ -1,0 +1,16 @@
+#!/bin/bash
+#Changes the current directory
+cd /home/webonise/assignment;
+for i in *.txt;
+do
+
+  echo "enter new file name of $i";
+  #Reads the new filename from the user
+  read filename;
+  #Renames the filename
+  mv $i $filename;
+
+done
+echo "Renamed files are"
+#Lists all the file with .txt extension
+ls *.txt

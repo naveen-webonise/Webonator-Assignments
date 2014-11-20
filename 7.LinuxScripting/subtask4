@@ -31,9 +31,3 @@ done
 ls *.txt
 #Appends the filename with .txt extension in assignment.log
 ls *.txt >> /home/webonise/assignment.log
-#Creates directory public_html in home directory
-mkdir ~/public_html
-#Creates a file readme.txt in public_html directory
-touch ~/public_html/readme.txt
-#Changes files permission of user, groups and others of readme.txt
-chmod 777 ~/public_html/readme.txt
