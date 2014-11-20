@@ -1,0 +1,9 @@
+#!/bin/bash
+date
+hostname
+lsb_release -a
+echo ~
+which
+users
+groups webonise
+ls -R | grep -v "d"
