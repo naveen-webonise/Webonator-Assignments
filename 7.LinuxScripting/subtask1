@@ -1,22 +1,22 @@
 #!/bin/bash
-echo "Date and Time"
+echo "Date and Time" >> assignment.log
 #Prints Date and Time
-date
-echo "Hostname of system"
+date >> assignment.log
+echo "Hostname of system" >> assignment.log
 #Shows the systems hostname
-hostname
-echo "Type and version of the operating system"
+hostname >> assignment.log
+echo "Type and version of the operating system" >> assignment.log
 #Prints the distribution specific information
-lsb_release -a
-echo "Full path to user's home Directory"
+lsb_release -a >> assignment.log
+echo "Full path to user's home Directory" >> assignment.log
 # ~ contains the path of home directory
-echo ~
-echo "Other users logged into the system"
+echo ~ >> assignment.log
+echo "Other users logged into the system" >> assignment.log
 #Prints the users currently logged into the system
-users
-echo "Groups user belongs to"
+users >> assignment.log
+echo "Groups user belongs to" >> assignment.log
 #Prints the group name
-groups webonise
-echo "Files in Home directory and subdirectory excluding directories"
+groups webonise >> assignment.log
+echo "Files in Home directory and subdirectory excluding directories" >> assignment.log
 #lists the files excluding directories
-ls -R | grep -v "d"
+ls -R | grep -v "d" >> assignment.log
