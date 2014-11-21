@@ -1,7 +1,7 @@
 #!/bin/bash
 echo "Date and Time"
 #Prints Date and Time
-date
+date >> assignment.log
 echo "Hostname of system"
 #Shows the systems hostname
 hostname
@@ -19,4 +19,4 @@ echo "Groups user belongs to"
 groups webonise
 echo "Files in Home directory and subdirectory excluding directories"
 #lists the files excluding directories
-ls -R | grep -v "d"
+ls -R | grep -v "d" >> assignment.log
