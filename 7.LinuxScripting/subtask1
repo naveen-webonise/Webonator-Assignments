@@ -2,7 +2,11 @@
 echo "Date and Time" >> assignment.log
 #Prints Date and Time
 date >> assignment.log
+<<<<<<< HEAD
 echo "Hostname of system" >> assignment.log
+=======
+echo "Hostname of system"
+>>>>>>> 2e79c7014e45854a94152db7a6034d1bd645aee1
 #Shows the systems hostname
 hostname >> assignment.log
 echo "Type and version of the operating system" >> assignment.log
