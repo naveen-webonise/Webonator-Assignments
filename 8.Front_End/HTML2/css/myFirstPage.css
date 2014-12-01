@@ -19,7 +19,7 @@ input,select{vertical-align:middle}
 }
 #header img,#header li{
     float: left;
-    border-right: 1px solid black;
+    
 
 }
 #header img{
@@ -28,7 +28,7 @@ input,select{vertical-align:middle}
 }
 #header li{
     
-  
+  	border-right: 1px solid black;
     padding-right: 26px;
     padding-left: 26px;
     line-height: 50px;
