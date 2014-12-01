@@ -109,25 +109,27 @@ body{
     margin-top: 188px;
 
 }
-button{
+
+a.galleryButton{
+    background: #f2f2f2;
+    margin-right: 20px;
+}
+a.joinButton{
+    background: #ff9900;
+    color: white; 
+}
+.button a{
+    text-align: center;
     font-size: 20px;
     width: 170px;
-    height: 47px;
+    height:47px;
     border-radius: 5px;
     border: 0px;
     margin-top: 45px;
-}
-#galleryButton{
-    background-color: #f2f2f2;
+    float: left;
     margin-right: 20px;
-
+    line-height: 47px;
 }
-#joinButton{
-    background-color: #ff9900;
-    color: white;
-
-}
-
 .copyright{
 	float: left;
 	padding-right: 60px;
