@@ -87,6 +87,9 @@ body{
     margin-top: 30px;
     
 }
+.socialIcon{
+    float: right;
+}
 #footer img{
     margin: 6px;;
 }
@@ -104,7 +107,7 @@ body{
 .text{
     float: left;
     font-family:arial,helvetica,"sans-serif";
-    font-weight: normal;
+    font-weight: bold;
     color:white;
     margin-top: 188px;
 
@@ -135,12 +138,16 @@ a.joinButton{
 	padding-right: 60px;
 	padding-top: 25px;
 	color: #888888;
+    padding-bottom: 87px;
 }
 .terms{
     float: left;
     padding-top: 25px;
+    padding-bottom: 87px;
 
-
+}
+.footerInfo{
+    float: left;
 }
 #termsList a{
     color:#888888;
@@ -159,8 +166,12 @@ a{
     text-decoration: none;
     color: #aaaaaa;
 }
+a:hover{
+    background-color: #3399cc;
+}
 h1  {
     font-size:33px;
+    padding-bottom: 25px;
 }
 h3  {
     font-size:26px;
