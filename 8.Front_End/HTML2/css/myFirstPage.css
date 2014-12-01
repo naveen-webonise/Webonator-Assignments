@@ -168,6 +168,7 @@ a{
 }
 a:hover{
     background-color: #3399cc;
+    color:black;
 }
 h1  {
     font-size:33px;
