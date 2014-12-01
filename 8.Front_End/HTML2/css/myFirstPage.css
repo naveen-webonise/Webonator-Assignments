@@ -1,83 +1,106 @@
-html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}
+html,body,div,span,h1,h2,h3,h4,h5,h6,p,img,ul,li{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}
 body{line-height:1}
-article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
 nav ul{list-style:none}
-blockquote,q{quotes:none}
-blockquote:before,blockquote:after,q:before,q:after{content:none}
 a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent}
-ins{background-color:#ff9;color:#000;text-decoration:none}
-mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold}
-del{text-decoration:line-through}
-abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}
-table{border-collapse:collapse;border-spacing:0}
-hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}
-input,select{vertical-align:middle}
 
 
-#wrapper{
+body{
     margin: auto;
-}
-#header img,#header li{
-    float: left;
-    
-
-}
-#header img{
-    padding-right: 54px;
-    margin-top: 9px;
-}
-#header li{
-    
-  	border-right: 1px solid black;
-    padding-right: 26px;
-    padding-left: 26px;
-    line-height: 50px;
-}
-#header{
-    background-color: #444444;
-    height: 50px;
-    font-size: 18px;
-    
-    
-
-}
-#gallery{
-    height: 486px;
-    background-image: url("../images/wall_pattern.png");
-        
-
-}
-#content{
-    height: 504px;
-}
-#content h3{
-    font-size: 26px;
-    text-align: center;
-}
-#footer{
-    height: 160px;
-    background-color: #ececec;
 }
 .container{
     width: 940px;
     margin: auto;
 }
-
-li{
-    display: inline;
+#header{
+    background-color: #444444;
+    font-size: 18px;
+}
+#header img,li{
+    float: left;
+}
+#header img{
+    margin-right: 54px;
+    margin-top: 9px;
+}
+#header li a{
     
-} 
-a{
-    text-decoration: none;
-    color: #aaaaaa;
+    padding: 15px 26px;
+    line-height: 50px;
 }
-h1  {
-    font-size:33px;
+#header li:first-child{
+    border-left: 1px solid black;
 }
-h3  {
-    font-size:26px;
-    margin-top: 25px;
+#header li{
+    border-right: 1px solid black;
 }
+
+#gallery{
+    background-image: url("../images/wall_pattern.png"); 
+    margin-bottom: 65px; 
+}
+#content h3{
+    font-size: 26px;
+    text-align: center;
+}
+.circleContent{
+   
+    
+    margin-left: 80px;
+    margin-top: 75px;
+
+}
+.contentCircle{
+    width: 140px;
+    height: 140px;
+    background-color: #ececec;
+    border-radius: 50%;
+    float: left;
+    margin-right: 75px;
+    border: 0px;
+    margin-bottom: 25px;
+}
+.contentCircle img{
+     margin: 40px;
+}
+
+.contentList li{
+    width: 140px;
+}
+.contentList p{
+    text-align: center;
+}
+.listItem{
+    margin-right:75px;
+}
+#footer{
+    background-color: #ececec;
+    margin-top: 115px;
+}
+
+.footerIcon{
+    width:30px;
+    height:30px;
+    background-color: #888888;
+    border-radius:50%;
+    float:right;
+    border: 0px;
+    margin-top: 30px;
+    
+}
+#footer img{
+    margin: 6px;;
+}
+#footer a{
+    color: #ff8000;
+}
+.footerLink{
+    padding-top: 30px;
+    float:left;
+}
+#footer li{
+    margin-right: 15px;
+}
+
 .text{
     float: left;
     font-family:arial,helvetica,"sans-serif";
@@ -104,69 +127,39 @@ button{
     color: white;
 
 }
-.circleContent{
-   
-    
-    margin-left: 80px;
-    margin-top: 75px;
 
-}
-#content li{
-    width: 140px;
-    height: 140px;
-    background-color: #ececec;
-    border-radius: 50%;
-    float: left;
-    margin-right: 75px;
-    border: 0px;
-    
-
-}
-.footerCircle li{
-    width:30px;
-    height:30px;
-    background-color: #888888;
-    border-radius:50%;
-    float:right;
-    border: 0px;
-    margin-top: 30px;
-    
-}
-
-#footer img{
-    margin: 6px;;
-}
-#content img{
-     margin: 40px;
-
-}
-#content p{
-	margin-left: 20px;
-	margin-top: 25px;
-}
-#footer li{
-    margin-right: 15px;
-}
 .copyright{
 	float: left;
-	margin-right: 60px;
-	margin-top: 25px;
+	padding-right: 60px;
+	padding-top: 25px;
 	color: #888888;
-	clear:left;
 }
 .terms{
     float: left;
-    margin-top: 25px;
-    color:#888888;
+    padding-top: 25px;
+
 
 }
-#footer a{
-    color: #ff8000;
-}
-.footerLink{
-    padding-top: 30px;
-    float:left;
+#termsList a{
+    color:#888888;
+    padding-right: 10px;
 }
 #home a{
     color: #333333;
+}
+.clearFix{
+    clear:both;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: #aaaaaa;
+}
+h1  {
+    font-size:33px;
+}
+h3  {
+    font-size:26px;
 }

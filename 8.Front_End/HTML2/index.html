@@ -3,7 +3,7 @@
 
 <head>
 
-<title> HTML ASSIGNMENT 2 </title>
+	<title> HTML ASSIGNMENT 2 </title>
 
     <link rel="stylesheet" type="text/css" href="css/myFirstPage.css">
 
@@ -11,17 +11,16 @@
 
 <body>
 
-<div id="wrapper">
-
   <div id="header">
     <div class="container">
-    	<img src="images/artforth_logo.png">
-        <ul class="menu">
-            <li>&nbsp;</li>
+    	<a href="index.html"><img src="images/artforth_logo.png"></a>
+        <ul>
             <li><a href="index.html">THE GALLERY </a></li>
             <li><a href="index.html"> HOW IT WORKS </a></li>
             <li><a href="index.html"> HELP </a></li>
+            <li class="clearFix"></li>
         </ul>
+        <div class="clearFix"></div>
     </div>
   </div>
 
@@ -29,14 +28,14 @@
   	<div class="container">
   		<div class="text">
   		  
-        <h1>Your Moods Change</h1>
-  		  <h3>So should the art on your walls!</h3>
+        	<h1>Your Moods Change</h1>
+  		  	<h3>So should the art on your walls!</h3>
   			
-        <button id="galleryButton" type="button">VIEW GALLERY</button>
+        	<button id="galleryButton" type="button">VIEW GALLERY</button>
   			<button id="joinButton" type="button">JOIN NOW</button>
   		
-      </div>
-  		  <img src="images/wall_frames.png">
+      	</div>
+  		<img src="images/wall_frames.png" alt="Wall Frames">
 
   	</div>
   </div>
@@ -45,13 +44,15 @@
   	<div class="container">
   		<h3>HOW IT WORKS</h3>
   		  <div class="circleContent">
-  			   <ul>
-        		  <li><img src="images/pc_icon.png"><p>Add art to your queue online</p></li>
-             	<li><img src="images/home_icon.png"><p>Receive art at your home in the order you specify</p></li>
-            	<li><img src="images/pics_icon.png"><p>Keep the art for as long as you like. Buy only what you love</p></l>
-            	<li><img src="images/folder_icon.png"><p>Retur the art to receive the next piece in the queue</p></li>
-       		 </ul>
-        </div>
+  			   <ul class="contentList">
+        		  <li class="listItem"><div class="contentCircle"><img src="images/pc_icon.png"></div>  <p>Add art to your queue online</p></li>
+             		<li class="listItem"><div class="contentCircle"><img src="images/home_icon.png"></div><p>Receive art at your home in the order you specify</p></li>
+            		<li class="listItem"><div class="contentCircle"><img src="images/pics_icon.png"></div><p>Keep the art for as long as you like. Buy only what you love</p></li>
+            		<li class="listItem"><div class="contentCircle"><img src="images/folder_icon.png"></div><p>Return the art to receive the next piece in the queue</p></li>
+              		<li class="clearFix"></li>
+       		 	</ul>
+           		<div class="clearFix"></div>
+        	</div>
   	</div>
   </div>
 
@@ -59,33 +60,38 @@
       <div class="container">
           <div class="footerLink">
             <ul>
-        	        <li id="home"><a href="index.html"> HOME </a></li>
+        	      <li id="home"><a href="index.html"> HOME </a></li>
                   <li><a href="index.html">THE GALLERY </a></li>
                   <li><a href="index.html"> HOW IT WORKS </a></li>
                   <li><a href="index.html"> HELP </a></li>
             </ul>
           </div>
-          <div class="footerCircle">
+       <div>
             <ul>
-        		  <li><img src="images/google_icon.png"></li>
-              <li><img src="images/pinterest_icon.png"></li>
-              <li><img src="images/twitter_icon.png"></li>
-              <li><img src="images/fb_icon.png"></li>
+        		  	<li class="footerIcon"><img src="images/google_icon.png"></li>
+              		<li class="footerIcon"><img src="images/pinterest_icon.png"></li>
+              		<li class="footerIcon"><img src="images/twitter_icon.png"></li>
+              		<li class="footerIcon"><img src="images/fb_icon.png"></li>
+              		<li class="clearFix"></li>
        	    </ul>
-          </div>
+
+        </div>
+            
+        <div class="copyright">
+              <span>&copy 2013 Art Forth All Rights Reserved</span>
+        </div>
           
-          <div class="copyright">&copy 2013 Art Forth All Rights Reserved</div>
-          
-          <div class="terms">
-            <ul>
-        	     <li>Terms of service	</li>|  
-        	     <li>&nbsp;&nbsp;Privacy Policy	</li>|
-        	     <li>&nbsp;&nbsp;Site map</li>
+        <div class="terms">
+            <ul id="termsList">
+               <li><a href="index.html">Terms of service </a>|</li>
+               <li><a href="index.html">Privacy Policy </a>|</li>
+               <li><a href="index.html">Site map</a></li>
             </ul>
-          </div>
+        </div>
+          
+        <div class="clearFix"></div>
       </div>
     </div>
-</div>
 
 </body>
 </html>
