@@ -1,0 +1,178 @@
+html,body,div,span,h1,h2,h3,h4,h5,h6,p,img,ul,li{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}
+body{line-height:1}
+nav ul{list-style:none}
+a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent}
+
+
+body{
+	margin: auto;
+}
+#header{
+	background-color: #FFFFFF;
+
+}
+#header ul{
+	float: right;
+	padding-top: 10px;
+}
+#header li{
+	float: left;
+}
+#banner{
+	background-color: #b8d3f0;
+
+}
+#links{
+	background-color: #3399cc;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.button a{
+	font-size: 22px;
+	font-family:arial,helvetica,"sans-serif";
+	color: #ffffff;
+	text-align: center;
+    border-radius: 5px;
+    border: 2px;
+    background: #3399cc;
+    border-color: #ffffff;
+    border-style: solid;
+    margin-right: 20px;
+    float: left;
+    padding: 15px 15px 15px 19px;
+}
+ul.button{
+	float: left;
+}
+.button li{
+	float: left;
+}
+.button img{
+	padding-left: 50px;
+	
+	float: right;
+}
+#content{
+	margin-top: 67px;
+
+}
+#content h2{
+	margin-bottom: 15px;
+}
+
+ul.info{
+	float: left;
+}
+.info li{
+	width: 300px;
+
+	
+	margin-left: 10px;
+	float: left;
+}
+.infoList{
+	background-color: #3399cc;
+	padding-bottom: 20px;
+}
+.info img{
+	padding-bottom: 20px;
+}
+.info h4{
+	padding-bottom: 9px;
+	color: #ffffff;
+	padding-left: 15px;
+}
+.info h5{
+	padding-bottom: 20px;
+	color: #ffffff;
+	padding-left: 15px;
+}
+.info p{
+	color: #ffffff;
+	padding-left: 15px;
+}
+#footer{
+	background-color: #333333;
+
+}
+.container{
+	width: 940px;
+    margin: auto;
+}
+.clearFix{
+	clear: both;
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	float: none;
+	width: 0px;
+	height: 0px;
+}
+.rfcLogo{
+	background-image: url("../images/rfc_logo.png");
+	background-repeat: no-repeat;
+	width: 120px;
+	height: 45px;
+	float: left;
+}
+.socialIcons{
+
+}
+.socialIcons img{
+	padding: 3px 5px;
+	
+}
+.socialIcons li{
+	width:25px;
+    height:24px;
+    background-color: #3399cc;
+    border-radius:50%;
+    border: 0px;
+    margin-right: 5px;
+}
+.headerLinks{
+	margin-right: 42px;
+
+}
+.headerLinks li{
+	padding-left: 26px;
+}
+.headerLinks a{
+	font-family:arial,helvetica,"sans-serif";
+	font-size: 14px;
+	color: #3399cc;
+	line-height: 20px;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.image{
+	position: relative;
+}
+h1{
+	position: absolute;
+	top: 80px;
+	font-size: 38px;
+	font-family:arial,helvetica,"sans-serif";
+	font-weight: bold;
+	width: 290px;
+	left: 578px;
+
+}
+h3{
+	position: absolute;
+	top: 180px;
+	font-size: 18px;
+	font-family:arial,helvetica,"sans-serif";
+	font-weight: bold;
+	width: 350px;
+	left: 578px;
+}
+h2{
+	font-size: 40px;
+	font-family:arial,helvetica,"sans-serif";
+	color: #3399cc;
+}
