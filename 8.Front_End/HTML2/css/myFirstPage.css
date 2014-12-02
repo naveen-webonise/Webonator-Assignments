@@ -128,7 +128,6 @@ a.joinButton{
     height:47px;
     border-radius: 5px;
     border: 0px;
-    margin-top: 45px;
     float: left;
     margin-right: 20px;
     line-height: 47px;
@@ -176,4 +175,5 @@ h1  {
 }
 h3  {
     font-size:26px;
+    margin-bottom: 45px;
 }
