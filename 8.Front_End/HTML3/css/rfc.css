@@ -95,9 +95,34 @@ ul.info{
 	background-color: #333333;
 
 }
+.footerList{
+	float: left;
+	padding-right: 60px;
+}
+.footerList a{
+	color: #ffffff;
+	font-size: 14px;
+	font-family:arial,helvetica,"sans-serif";
+}
+.footerList span{
+	font-size: 14px;
+	font-family:arial,helvetica,"sans-serif";
+	color: #b2b2b2;
+	margin-left: 4px;
+}
+.footerList li{
+	padding-bottom: 5px;
+}
+.topList{
+	margin-top: 15px;
+}
+.bottomList{
+	margin-top: 30px;
+}
 .container{
 	width: 940px;
     margin: auto;
+    
 }
 .clearFix{
 	clear: both;
