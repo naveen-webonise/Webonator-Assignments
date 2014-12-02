@@ -62,6 +62,7 @@ ul.button{
 
 ul.info{
 	float: left;
+	margin-bottom: 70px;
 }
 .info li{
 	width: 300px;
@@ -93,6 +94,7 @@ ul.info{
 }
 #footer{
 	background-color: #333333;
+	padding-top: 30px;
 
 }
 .footerList{
