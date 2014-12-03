@@ -117,6 +117,13 @@ ul.info{
 }
 .footerHome li{
 	float: left;
+	padding-top: 20px;
+
+}	
+.footerHome a{
+	color: #ffffff;
+	font-size: 12px;
+
 }
 .footerHome ul{
 	float: left;
@@ -126,6 +133,7 @@ ul.info{
 }
 .bottomList{
 	margin-top: 30px;
+	padding-bottom: 30px;
 }
 .container{
 	width: 940px;
@@ -208,4 +216,11 @@ h2{
 	font-size: 40px;
 	font-family:arial,helvetica,"sans-serif";
 	color: #3399cc;
+}
+hr{
+
+}
+.copyright{
+	text-align: center;
+	color: #b2b2b2;
 }
