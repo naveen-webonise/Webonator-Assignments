@@ -31,26 +31,27 @@ body{
 	font-size: 22px;
 	font-family:arial,helvetica,"sans-serif";
 	color: #ffffff;
-	text-align: center;
     border-radius: 5px;
     border: 2px;
     background: #3399cc;
     border-color: #ffffff;
     border-style: solid;
-    margin-right: 20px;
     float: left;
-    padding: 15px 15px 15px 19px;
+    padding: 15px 0px;
+    background:url("../images/tab_symbol.png") no-repeat 177px 12px;
+    width: 197px;
+    text-align: left;
+    padding-left: 19px;
 }
 ul.button{
 	float: left;
 }
 .button li{
 	float: left;
+	margin-left: 20px;
 }
-.button img{
-	padding-left: 50px;
-
-	float: right;
+.button li:first-child{
+	margin-left: 0px;
 }
 #content{
 	margin-top: 67px;
@@ -66,10 +67,11 @@ ul.info{
 }
 .info li{
 	width: 300px;
-
-
-	margin-left: 10px;
+	margin-left: 20px;
 	float: left;
+}
+.info li:first-child{
+	margin-left: 0px;
 }
 .infoList{
 	background-color: #3399cc;
@@ -78,8 +80,7 @@ ul.info{
 .info img{
 	padding-bottom: 20px;
 }
-.info h4{
-	padding-bottom: 9px;
+.info span{
 	color: #ffffff;
 	padding-left: 15px;
 }
@@ -87,6 +88,7 @@ ul.info{
 	padding-bottom: 20px;
 	color: #ffffff;
 	padding-left: 15px;
+	padding-top: 9px;
 }
 .info p{
 	color: #ffffff;
@@ -140,12 +142,17 @@ ul.info{
 	margin-left: 200px;
 	margin-bottom: 15px;
 }
+.footerHome{
+	border-top: 1px solid #b2b2b2;
+	padding-top: 20px;
+}
 .topList{
 	margin-top: 15px;
 }
 .bottomList{
 	margin-top: 30px;
 	padding-bottom: 30px;
+	font-weight: bold;
 }
 .container{
 	width: 940px;
@@ -168,20 +175,31 @@ ul.info{
 	height: 45px;
 	float: left;
 }
-.socialIcons{
 
+.googleIcon{
+	background:#3399cc url("../images/google_icon.png") no-repeat center 5px;
 }
-.socialIcons img{
-	padding: 3px 5px;
-
+.pinterestIcon{
+	background:#3399cc url("../images/pinterest_icon.png") no-repeat center 5px;
+}
+.twitterIcon{
+	background:#3399cc url("../images/twitter_icon.png") no-repeat center 5px;
+}
+.fbIcon{
+	background:#3399cc url("../images/fb_icon.png") no-repeat center 5px;
 }
 .socialIcons li{
-	width:25px;
-    height:24px;
-    background-color: #3399cc;
     border-radius:50%;
     border: 0px;
     margin-right: 5px;
+}
+.socialIcons a{
+	display: block;
+	width:25px;
+    height:24px;
+}
+.socialIcons li:hover{
+	background-color: #ff33cc;
 }
 .headerLinks{
 	margin-right: 42px;
@@ -229,11 +247,10 @@ h2{
 	font-family:arial,helvetica,"sans-serif";
 	color: #3399cc;
 }
-hr{
-	margin-bottom: 20px;
-
-}
 .copyright{
 	text-align: center;
 	color: #b2b2b2;
+}
+a:hover{
+	color: #ff33cc;
 }
