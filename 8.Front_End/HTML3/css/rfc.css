@@ -49,7 +49,7 @@ ul.button{
 }
 .button img{
 	padding-left: 50px;
-	
+
 	float: right;
 }
 #content{
@@ -67,7 +67,7 @@ ul.info{
 .info li{
 	width: 300px;
 
-	
+
 	margin-left: 10px;
 	float: left;
 }
@@ -95,6 +95,7 @@ ul.info{
 #footer{
 	background-color: #333333;
 	padding-top: 30px;
+	padding-bottom: 130px;
 
 }
 .footerList{
@@ -117,16 +118,27 @@ ul.info{
 }
 .footerHome li{
 	float: left;
-	padding-top: 20px;
-
-}	
+	line-height: 14px;
+	border-left: 1px solid black;
+	border-color: #ffffff;
+	margin-right: 10px;
+}
 .footerHome a{
 	color: #ffffff;
 	font-size: 12px;
+	margin-left: 10px;
 
 }
+.footerHome li:first-child{
+    border-left: none;
+    margin-left: -10px;
+}
+
+
 .footerHome ul{
 	float: left;
+	margin-left: 200px;
+	margin-bottom: 15px;
 }
 .topList{
 	margin-top: 15px;
@@ -138,7 +150,7 @@ ul.info{
 .container{
 	width: 940px;
     margin: auto;
-    
+
 }
 .clearFix{
 	clear: both;
@@ -161,7 +173,7 @@ ul.info{
 }
 .socialIcons img{
 	padding: 3px 5px;
-	
+
 }
 .socialIcons li{
 	width:25px;
@@ -218,6 +230,7 @@ h2{
 	color: #3399cc;
 }
 hr{
+	margin-bottom: 20px;
 
 }
 .copyright{
