@@ -66,7 +66,7 @@ ul.info{
 	margin-bottom: 70px;
 }
 .info li{
-	width: 300px;
+	width: 300px;	
 	margin-left: 20px;
 	float: left;
 }
@@ -80,7 +80,7 @@ ul.info{
 .info img{
 	padding-bottom: 20px;
 }
-.info span{
+.info span{	
 	color: #ffffff;
 	padding-left: 15px;
 }
@@ -102,7 +102,6 @@ ul.info{
 }
 .footerList{
 	float: left;
-	padding-right: 60px;
 }
 .footerList a{
 	color: #ffffff;
@@ -114,7 +113,7 @@ ul.info{
 	font-family:arial,helvetica,"sans-serif";
 	color: #b2b2b2;
 	margin-left: 4px;
-	font-weight:bold;
+	font-weight: bold;
 }
 .footerList li{
 	padding-bottom: 5px;
@@ -125,16 +124,16 @@ ul.info{
 	border-left: 1px solid black;
 	border-color: #ffffff;
 	margin-right: 10px;
-}
+}	
 .footerHome a{
 	color: #ffffff;
 	font-size: 12px;
 	margin-left: 10px;
-
+	
 }
 .footerHome li:first-child{
     border-left: none;
-    margin-left: -10px;
+    margin-left: 0px;
 }
 
 
@@ -155,10 +154,17 @@ ul.info{
 	padding-bottom: 30px;
 	font-weight: bold;
 }
+.footerList{
+	padding-left: 28px;
+	width: 162px;
+}
+div.footerList:first-child{
+	padding-left: 0px;
+}
 .container{
 	width: 940px;
     margin: auto;
-
+    
 }
 .clearFix{
 	clear: both;
@@ -187,9 +193,9 @@ ul.info{
 	background:#3399cc url("../images/twitter_icon.png") no-repeat center 5px;
 }
 .fbIcon{
-	background:#3399cc url("../images/fb_icon.png") no-repeat center 5px;
+	background:#3399cc url("../images/fb_icon.png") no-repeat center 5px;	
 }
-.socialIcons li{
+.socialIcons li{	
     border-radius:50%;
     border: 0px;
     margin-right: 5px;
