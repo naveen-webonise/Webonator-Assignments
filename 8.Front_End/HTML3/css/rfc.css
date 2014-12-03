@@ -114,6 +114,7 @@ ul.info{
 	font-family:arial,helvetica,"sans-serif";
 	color: #b2b2b2;
 	margin-left: 4px;
+	font-weight:bold;
 }
 .footerList li{
 	padding-bottom: 5px;
