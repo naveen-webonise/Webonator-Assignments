@@ -14,17 +14,21 @@ body{
 #header{
     background-color: #444444;
     font-size: 18px;
+
 }
-#header img,li{
+#header li{
     float: left;
 }
+#header li:first-child{
+    margin-left: 54px;
+}
 #header img{
-    margin-right: 54px;
+    display: block;
     margin-top: 9px;
 }
 #header li a{
 
-    padding: 15px 26px;
+    padding: 0px 26px;
     line-height: 50px;
 }
 #header li:first-child{
@@ -33,10 +37,18 @@ body{
 #header li{
     border-right: 1px solid black;
 }
-
+#header a{
+    float: left;
+}
+#header ul{
+    float: left;
+}
 #gallery{
     background-image: url("../images/wall_pattern.png");
     margin-bottom: 65px;
+}
+.galleryImage{
+    float: left;
 }
 #content h3{
     font-size: 26px;
@@ -54,7 +66,6 @@ body{
     height: 140px;
     background-color: #ececec;
     border-radius: 50%;
-    float: left;
     margin-right: 75px;
     border: 0px;
     margin-bottom: 25px;
@@ -63,18 +74,21 @@ body{
      margin: 40px;
 }
 
-.contentList li{
-    width: 140px;
+.contentList {
+    float: left;
 }
 .contentList p{
     text-align: center;
 }
 .listItem{
     margin-right:75px;
+    float: left;
+    width: 140px;
 }
 #footer{
     background-color: #ececec;
     margin-top: 115px;
+    padding-bottom: 87px;
 }
 
 .footerIcon{
@@ -87,7 +101,10 @@ body{
     margin-top: 30px;
 
 }
-.socialIcon{
+ul.socialIcon{
+    float: right;
+}
+.socialIcon li{
     float: right;
 }
 #footer img{
@@ -96,12 +113,16 @@ body{
 #footer a{
     color: #ff8000;
 }
-.footerLink{
+#footer a:hover{
+    color: #ff0000;
+}
+ul.footerLink{
     padding-top: 30px;
     float:left;
 }
 #footer li{
     margin-right: 15px;
+    float: left;
 }
 
 .text{
@@ -120,6 +141,8 @@ a.galleryButton{
 a.joinButton{
     background: #ff9900;
     color: white;
+
+
 }
 .button a{
     text-align: center;
@@ -128,21 +151,23 @@ a.joinButton{
     height:47px;
     border-radius: 5px;
     border: 0px;
-    float: left;
     margin-right: 20px;
     line-height: 47px;
+    float: left;
+}
+.button{
+    float: left;
 }
 .copyright{
 	float: left;
 	padding-right: 60px;
 	padding-top: 25px;
 	color: #888888;
-    padding-bottom: 87px;
 }
 .terms{
     float: left;
     padding-top: 25px;
-    padding-bottom: 87px;
+
 
 }
 .footerInfo{
@@ -166,8 +191,7 @@ a{
     color: #aaaaaa;
 }
 a:hover{
-    background-color: #3399cc;
-    color:black;
+    color:#ff0000;
 }
 h1  {
     font-size:33px;
@@ -176,4 +200,7 @@ h1  {
 h3  {
     font-size:26px;
     margin-bottom: 45px;
+}
+.socialIcon a:hover{
+    background-color: #66ccff;
 }
