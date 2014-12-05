@@ -12,7 +12,6 @@ body{
 #header{
 	padding-top: 9px;
 	padding-bottom: 15px;
-	padding-left: 8px;
 
 }
 ul.headerList{
@@ -32,8 +31,8 @@ ul.headerList{
 ul.headerSocial{
 	float: right;
 	margin-left: 20px;
-	margin-top: 22px;
-	margin-bottom: 18px;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 .headerSocial li{
 	float: left;
@@ -153,6 +152,7 @@ a.button{
 }
 #content{
 	padding-bottom: 39px;
+	padding-top: 18px;
 
 }
 .quote{
@@ -226,9 +226,6 @@ a.signupButton{
 	font-family:arial,helvetica,"sans-serif";
 	color: #0066cc;
 
-}
-#content .container{
-	padding-top: 18px;
 }
 #footer{
 	border-top: 1px solid #cccccc;
