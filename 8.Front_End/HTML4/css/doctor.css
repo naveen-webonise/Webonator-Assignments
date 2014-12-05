@@ -137,7 +137,7 @@ a.button{
     text-align: center;
     padding-left: 19px;
     background-color: #ff9900;
-    box-shadow:  inset 0 3px 10px #ffcc00;
+    box-shadow:  inset 0 3px 6px #ffcc00;
 }
 .doctorInfo input{
 	float: right;
@@ -221,7 +221,7 @@ a.signupButton{
     text-align: center;
     padding-left: 19px;
     background-color: #ff9900;
-    box-shadow:  inset 0 3px 10px #ffcc00;
+    box-shadow:  inset 0 3px 6px #ffcc00;
 
 }
 .signUp h5{
