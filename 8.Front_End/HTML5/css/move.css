@@ -120,6 +120,10 @@ a.headerLogin{
 #banner li:first-child{
 	margin-left: 50px;
 }
+#banner .button li:first-child{
+	margin-left: 0px;
+}
+
 
 #banner p{
 	display: block;
@@ -327,4 +331,7 @@ li{
 
 a{
 	text-decoration: none;
+}
+a:hover,.button a:hover{
+	color: red;
 }
