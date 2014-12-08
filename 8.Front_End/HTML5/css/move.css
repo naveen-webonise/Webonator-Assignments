@@ -155,7 +155,7 @@ a.headerLogin{
 	position: relative;
 }
 .leftArrow{
-	padding-top: 128px;
+	margin-top: 128px;
 	margin-right: 37px;
 	display: block;
 	height: 50px;
@@ -163,7 +163,7 @@ a.headerLogin{
 	float: left;
 }
 .rightArrow{
-	padding-top: 128px;
+	margin-top: 128px;
 	margin-left: 37px;
 	display: block;
 	height: 50px;
