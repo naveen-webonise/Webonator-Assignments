@@ -22,7 +22,8 @@ abstract class Shape{
 		Scanner input = new Scanner(System.in);
 		numberOfSides = input.nextInt();
 		if(numberOfSides<3 || numberOfSides>10){
-			System.out.println("Enter the sides of polygon between 3 to 10");
+			System.out.println("Enter the sides of polygon between 3 to 10!!!!!!");
+			System.exit(0);
 			
 		}
 		System.out.println("Enter the length of the side of polygon");
