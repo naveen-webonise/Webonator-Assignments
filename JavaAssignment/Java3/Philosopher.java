@@ -54,20 +54,9 @@ class ThreadImplementerInterface extends Thread{
 			while(true){
 				
 					eat(left,right);
-					try{
-						sleep(50);
-					}
-					catch(InterruptedException e){
-						
-					}
+					
 					think();
-					try{
-						sleep(50);
-					}
-					catch(InterruptedException e){
-						
-					}
-			
+				
 			}
 	}
 	public synchronized void eat(Fork left,Fork right){
@@ -78,7 +67,9 @@ class ThreadImplementerInterface extends Thread{
 				
 				left.forkUse=1;
 				right.forkUse=1;
-				wait(50);
+				sleep(50);
+				
+				notify();
 				System.out.println("Philosopher "+Thread.currentThread().getName()+"is eating");
 				
 				
@@ -93,11 +84,20 @@ class ThreadImplementerInterface extends Thread{
 		
 			
 			
-			
-			left.forkUse=0;
-			right.forkUse=0;
+		
+		left.forkUse=0;
+		right.forkUse=0;
 			System.out.println("Philosopher"+Thread.currentThread().getName()+"is thinking");
-			notify();
+			
+			try {
+				while(left.forkUse==1 && right.forkUse==1){
+				wait();
+				}
+				
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 			
 		
 		
@@ -108,5 +108,6 @@ class Fork{
 	
 	Fork(){
 		forkUse=0;
+		
 	}
 }
