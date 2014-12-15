@@ -69,7 +69,7 @@ class ThreadImplementerInterface extends Thread{
 				right.forkUse=1;
 				sleep(50);
 				
-				
+				notify();
 				System.out.println("Philosopher "+Thread.currentThread().getName()+"is eating");
 				
 				
@@ -78,7 +78,6 @@ class ThreadImplementerInterface extends Thread{
 				e.printStackTrace();
 			}
 			}
-			notify();
 		
 	}
 	public synchronized void think(){
