@@ -1,0 +1,263 @@
+html,body,div,span,h1,h2,h3,h4,h5,h6,p,img,ul,li{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}
+body{line-height:1}
+nav ul{list-style:none}
+a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent}
+
+
+body{
+	margin: auto;
+}
+#header{
+	background-color: #FFFFFF;
+
+}
+#header ul{
+	float: right;
+	padding-top: 10px;
+}
+#header li{
+	float: left;
+}
+#banner{
+	background-color: #b8d3f0;
+
+}
+#links{
+	background-color: #3399cc;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.button a{
+	font-size: 22px;
+	font-family:arial,helvetica,"sans-serif";
+	color: #ffffff;
+    border-radius: 5px;
+    border: 2px;
+    border-color: #ffffff;
+    border-style: solid;
+    float: left;
+    padding: 15px 0px;
+    background:url("../images/tab_symbol.png") no-repeat 177px 12px;
+    width: 197px;
+    text-align: left;
+    padding-left: 19px;
+}
+ul.button{
+	float: left;
+}
+.button li{
+	float: left;
+	margin-left: 20px;
+}
+.button li:first-child{
+	margin-left: 0px;
+}
+#content{
+	margin-top: 67px;
+
+}
+#content h2{
+	margin-bottom: 15px;
+}
+
+ul.info{
+	float: left;
+	margin-bottom: 70px;
+}
+.info li{
+	width: 300px;	
+	margin-left: 20px;
+	float: left;
+}
+.info li:first-child{
+	margin-left: 0px;
+}
+.infoList{
+	background-color: #3399cc;
+	padding-bottom: 20px;
+}
+.info img{
+	padding-bottom: 20px;
+}
+.info span{	
+	color: #ffffff;
+	padding-left: 15px;
+}
+.info h5{
+	padding-bottom: 20px;
+	color: #ffffff;
+	padding-left: 15px;
+	padding-top: 9px;
+}
+.info p{
+	color: #ffffff;
+	padding-left: 15px;
+}
+#footer{
+	background-color: #333333;
+	padding-top: 30px;
+	padding-bottom: 130px;
+	border-top: 1px solid #cccccc;
+
+}
+.footerList{
+	float: left;
+}
+.footerList a{
+	color: #ffffff;
+	font-size: 14px;
+	font-family:arial,helvetica,"sans-serif";
+}
+.footerList span{
+	font-size: 14px;
+	font-family:arial,helvetica,"sans-serif";
+	color: #b2b2b2;
+	margin-left: 4px;
+	font-weight: bold;
+}
+.footerList li{
+	padding-bottom: 5px;
+}
+.footerHome li{
+	float: left;
+	line-height: 14px;
+	border-left: 1px solid black;
+	border-color: #ffffff;
+	margin-right: 10px;
+}	
+.footerHome a{
+	color: #ffffff;
+	font-size: 12px;
+	margin-left: 10px;
+	
+}
+.footerHome li:first-child{
+    border-left: none;
+    margin-left: 0px;
+}
+
+
+.footerHome ul{
+	float: left;
+	margin-left: 200px;
+	margin-bottom: 15px;
+}
+.footerHome{
+	border-top: 1px solid #b2b2b2;
+	padding-top: 20px;
+}
+.topList{
+	margin-top: 15px;
+}
+.bottomList{
+	margin-top: 30px;
+	padding-bottom: 30px;
+	font-weight: bold;
+}
+.footerList{
+	padding-left: 28px;
+	width: 162px;
+}
+div.footerList:first-child{
+	padding-left: 0px;
+}
+.container{
+	width: 940px;
+    margin: auto;
+    
+}
+.clearFix{
+	clear: both;
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	float: none;
+	width: 0px;
+	height: 0px;
+}
+.rfcLogo{
+	background-image: url("../images/rfc_logo.png");
+	background-repeat: no-repeat;
+	width: 120px;
+	height: 45px;
+	float: left;
+}
+
+.googleIcon{
+	background:#3399cc url("../images/google_icon.png") no-repeat center 5px;
+}
+.pinterestIcon{
+	background:#3399cc url("../images/pinterest_icon.png") no-repeat center 5px;
+}
+.twitterIcon{
+	background:#3399cc url("../images/twitter_icon.png") no-repeat center 5px;
+}
+.fbIcon{
+	background:#3399cc url("../images/fb_icon.png") no-repeat center 5px;	
+}
+.socialIcons li{	
+    border-radius:50%;
+    border: 0px;
+    margin-right: 5px;
+}
+.socialIcons a{
+	display: block;
+	width:25px;
+    height:24px;
+}
+.socialIcons li:hover{
+	background-color: #ff33cc;
+}
+.headerLinks{
+	margin-right: 42px;
+
+}
+.headerLinks li{
+	padding-left: 26px;
+}
+.headerLinks a{
+	font-family:arial,helvetica,"sans-serif";
+	font-size: 14px;
+	color: #3399cc;
+	line-height: 20px;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.image{
+	position: relative;
+}
+h1{
+	position: absolute;
+	top: 80px;
+	font-size: 38px;
+	font-family:arial,helvetica,"sans-serif";
+	font-weight: bold;
+	width: 290px;
+	left: 578px;
+
+}
+h3{
+	position: absolute;
+	top: 180px;
+	font-size: 18px;
+	font-family:arial,helvetica,"sans-serif";
+	font-weight: bold;
+	width: 350px;
+	left: 578px;
+}
+h2{
+	font-size: 40px;
+	font-family:arial,helvetica,"sans-serif";
+	color: #3399cc;
+}
+.copyright{
+	text-align: center;
+	color: #b2b2b2;
+}
+a:hover{
+	color: #ff33cc;
+}

@@ -1,0 +1,87 @@
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}
+body{line-height:1}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+nav ul{list-style:none}
+blockquote,q{quotes:none}
+blockquote:before,blockquote:after,q:before,q:after{content:none}
+a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent}
+ins{background-color:#ff9;color:#000;text-decoration:none}
+mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold}
+del{text-decoration:line-through}
+abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}
+table{border-collapse:collapse;border-spacing:0}
+hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}
+input,select{vertical-align:middle}
+
+
+#wrapper{
+    margin: auto;
+}
+
+#banner {
+    background-color:#3399cc;
+    height:176px;
+}
+
+#header {
+    background-color:#cccccc;
+    height:60px;
+    font-size:14px;
+}
+
+#section {
+    padding:30px 81px 25px 72px;
+}
+
+#footer {
+    height:65px;
+    background-color:#eeeeee;
+    font-size:12px;
+}
+
+ul {
+    float:left;
+    list-style-type:none;
+    margin-top:20px;
+}
+
+li  {
+    display: inline;
+}
+
+a{
+    text-decoration: none;
+    color:#333333;
+}
+
+#windows {
+    float:left;
+    margin-right:12px;
+    margin-bottom:12px;
+
+}
+
+p {
+    font-family:arial,helvetica,"sans-serif";
+    font-size:14px;
+    text-align:left;
+}
+
+#copyright  {
+    float:right;
+    margin-top:20px;
+    margin-right:80px
+    padding:0px;
+}
+.container  {
+    width:940px;
+    margin:auto;
+}
+h1  {
+    text-align:center;
+    font-size:30px;
+    font-family:arial,helvetica,"sans-serif";
+    font-weight: normal;
+    color:#ffffff;
+    line-height:176px;
+}

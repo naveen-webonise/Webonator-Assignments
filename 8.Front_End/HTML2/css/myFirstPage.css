@@ -1,0 +1,206 @@
+html,body,div,span,h1,h2,h3,h4,h5,h6,p,img,ul,li{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}
+body{line-height:1}
+nav ul{list-style:none}
+a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent}
+
+
+body{
+    margin: auto;
+}
+.container{
+    width: 940px;
+    margin: auto;
+}
+#header{
+    background-color: #444444;
+    font-size: 18px;
+
+}
+#header li{
+    float: left;
+}
+#header li:first-child{
+    margin-left: 54px;
+}
+#header img{
+    display: block;
+    margin-top: 9px;
+}
+#header li a{
+
+    padding: 0px 26px;
+    line-height: 50px;
+}
+#header li:first-child{
+    border-left: 1px solid black;
+}
+#header li{
+    border-right: 1px solid black;
+}
+#header a{
+    float: left;
+}
+#header ul{
+    float: left;
+}
+#gallery{
+    background-image: url("../images/wall_pattern.png");
+    margin-bottom: 65px;
+}
+.galleryImage{
+    float: left;
+}
+#content h3{
+    font-size: 26px;
+    text-align: center;
+}
+.circleContent{
+
+
+    margin-left: 80px;
+    margin-top: 75px;
+
+}
+.contentCircle{
+    width: 140px;
+    height: 140px;
+    background-color: #ececec;
+    border-radius: 50%;
+    margin-right: 75px;
+    border: 0px;
+    margin-bottom: 25px;
+}
+.contentCircle img{
+     margin: 40px;
+}
+
+.contentList {
+    float: left;
+}
+.contentList p{
+    text-align: center;
+}
+.listItem{
+    margin-right:75px;
+    float: left;
+    width: 140px;
+}
+#footer{
+    background-color: #ececec;
+    margin-top: 115px;
+    padding-bottom: 87px;
+}
+
+.footerIcon{
+    width:30px;
+    height:30px;
+    background-color: #888888;
+    border-radius:50%;
+    float:right;
+    border: 0px;
+    margin-top: 30px;
+
+}
+ul.socialIcon{
+    float: right;
+}
+.socialIcon li{
+    float: right;
+}
+#footer img{
+    margin: 6px;;
+}
+#footer a{
+    color: #ff8000;
+}
+#footer a:hover{
+    color: #ff0000;
+}
+ul.footerLink{
+    padding-top: 30px;
+    float:left;
+}
+#footer li{
+    margin-right: 15px;
+    float: left;
+}
+
+.text{
+    float: left;
+    font-family:arial,helvetica,"sans-serif";
+    font-weight: bold;
+    color:white;
+    margin-top: 188px;
+
+}
+
+a.galleryButton{
+    background: #f2f2f2;
+    margin-right: 20px;
+}
+a.joinButton{
+    background: #ff9900;
+    color: white;
+
+
+}
+.button a{
+    text-align: center;
+    font-size: 20px;
+    width: 170px;
+    height:47px;
+    border-radius: 5px;
+    border: 0px;
+    margin-right: 20px;
+    line-height: 47px;
+    float: left;
+}
+.button{
+    float: left;
+}
+.copyright{
+	float: left;
+	padding-right: 60px;
+	padding-top: 25px;
+	color: #888888;
+}
+.terms{
+    float: left;
+    padding-top: 25px;
+
+
+}
+.footerInfo{
+    float: left;
+}
+#termsList a{
+    color:#888888;
+    padding-right: 10px;
+}
+#home a{
+    color: #333333;
+}
+.clearFix{
+    clear:both;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: #aaaaaa;
+}
+a:hover{
+    color:#ff0000;
+}
+h1  {
+    font-size:33px;
+    padding-bottom: 25px;
+}
+h3  {
+    font-size:26px;
+    margin-bottom: 45px;
+}
+.socialIcon a:hover{
+    background-color: #66ccff;
+}
