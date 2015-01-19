@@ -1,0 +1,5 @@
+#surefire
+#Mon Jan 19 15:42:28 IST 2015
+user.dir=/home/webonise/Desktop/SpringHibernate
+localRepository=/home/webonise/.m2/repository
+basedir=/home/webonise/Desktop/SpringHibernate
