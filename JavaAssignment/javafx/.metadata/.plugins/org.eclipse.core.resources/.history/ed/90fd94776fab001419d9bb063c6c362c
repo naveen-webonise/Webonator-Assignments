@@ -1,0 +1,30 @@
+package application;
+	
+import javafx.application.Application;
+import javafx.scene.Scene;
+import javafx.scene.layout.GridPane;
+import javafx.scene.text.Font;
+import javafx.scene.text.Text;
+import javafx.stage.Stage;
+
+
+public class Main extends Application {
+	@Override
+	public void start(Stage primaryStage) {
+		GridPane gridpane = new GridPane();
+		//gridpane.setAlignment(Pos.CENTER);
+		Text sceneTitle = new Text("Welcome");
+		sceneTitle.setFont(Font.font("Tahoma", 30));
+		gridpane.add(0,0,2,1);
+		
+		Scene scene = new Scene(gridpane,300,300);
+		
+		primaryStage.setScene(scene);
+		primaryStage.setTitle("Login Form");
+		primaryStage.show();
+	}
+	
+	public static void main(String[] args) {
+		launch(args);
+	}
+}

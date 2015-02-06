@@ -1,0 +1,41 @@
+package application;
+	
+import javafx.application.Application;
+import javafx.geometry.Pos;
+import javafx.scene.Scene;
+import javafx.scene.control.Label;
+import javafx.scene.control.TextField;
+import javafx.scene.layout.GridPane;
+import javafx.scene.text.Font;
+import javafx.scene.text.Text;
+import javafx.stage.Stage;
+
+
+public class Main extends Application {
+	@Override
+	public void start(Stage primaryStage) {
+		GridPane gridpane = new GridPane();
+		gridpane.setAlignment(Pos.CENTER);
+		Text sceneTitle = new Text("Welcome");
+		sceneTitle.setFont(Font.font("Tahoma", 30));
+		gridpane.add(sceneTitle,0,0,2,1);
+		
+		Label label = new Label("UserName:");
+		gridpane.add(label, 0, 0);
+		
+		TextField userField = new TextField();
+		gridpane.add(userField, 1, 1);
+		
+		gridpane.setGridLinesVisible(true);
+		
+		Scene scene = new Scene(gridpane,300,300);
+		
+		primaryStage.setScene(scene);
+		primaryStage.setTitle("Login Form");
+		primaryStage.show();
+	}
+	
+	public static void main(String[] args) {
+		launch(args);
+	}
+}

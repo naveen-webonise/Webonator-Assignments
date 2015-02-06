@@ -1,0 +1,6 @@
+INDEX VERSION 1.127+/home/webonise/javafx/.metadata/.plugins/org.eclipse.jdt.core
+3927879410.index
+431595214.index
+2967600433.index
+3902593401.index
+4171700887.index

@@ -1,0 +1,14 @@
+package application;
+
+import javafx.event.ActionEvent;
+import javafx.fxml.FXML;
+import javafx.scene.text.Text;
+
+public class FXMLExampleController {
+	
+	@FXML private Text actiontarget;
+	
+	@FXML protected void handleSubmitAction(ActionEvent event){
+		actiontarget.setText("Naveen Can Sign in");
+	}
+}
