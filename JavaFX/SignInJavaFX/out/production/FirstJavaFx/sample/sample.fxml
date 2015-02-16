@@ -17,8 +17,10 @@
     <Label text="Password" GridPane.columnIndex="0" GridPane.rowIndex="1"/>
     <PasswordField fx:id="passwordField" GridPane.columnIndex="1" GridPane.rowIndex="1"/>
 
+    <Label fx:id="user" GridPane.columnIndex="0" GridPane.rowIndex="5"/>
+
     <HBox alignment="bottom_right" GridPane.columnIndex="1" GridPane.rowIndex="3">
-        <Button text="Sign in"
+        <Button fx:id="button" text="Sign in"
         onAction="#handleSubmitButtonAction"/>
     </HBox>
 </GridPane>
