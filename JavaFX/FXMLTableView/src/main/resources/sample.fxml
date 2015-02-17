@@ -1,0 +1,25 @@
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<GridPane fx:controller="sample.Controller"
+          xmlns:fx="http://javafx.com/fxml" alignment="center" hgap="10" vgap="10">
+    <Label style="-fx-font: NORMAL 20 Tahoma;" text="Address Book"
+           GridPane.columnIndex="0" GridPane.rowIndex="0">
+    </Label>
+    <TableView fx:id="tableView" GridPane.columnIndex="0" GridPane.rowIndex="1">
+        <columns>
+            <TableColumn fx:id="firstName" text="First Name" prefWidth="100"/>
+            <TableColumn fx:id="lastName" text="Last Name" prefWidth="100"/>
+            <TableColumn fx:id="email" text="Email" prefWidth="100"/>
+        </columns>
+    </TableView>
+    <HBox spacing="10" alignment="bottom_right" GridPane.columnIndex="0"
+          GridPane.rowIndex="2">
+        <TextField fx:id="firstNameField" promptText="First Name"
+                   prefWidth="90"/>
+        <TextField fx:id="lastNameField" promptText="Last Name"
+                   prefWidth="90"/>
+        <TextField fx:id="emailField" promptText="email"
+                   prefWidth="150"/>
+        <Button text="Add" onAction="#addPerson"/>
+    </HBox>
+</GridPane>
