@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<GridPane
+    xmlns:fx="http://javafx.com/fxml" alignment="center">
+
+    <Label text="User Name:" GridPane.columnIndex="0" GridPane.rowIndex="0"/>
+    <TextField fx:id="userName" GridPane.columnIndex="1" GridPane.rowIndex="0"/>
+
+    <Label text="Password" GridPane.columnIndex="0" GridPane.rowIndex="1"/>
+    <PasswordField fx:id="passwordField" GridPane.columnIndex="1" GridPane.rowIndex="1"/>
+
+    <Label fx:id="user" GridPane.columnIndex="0" GridPane.rowIndex="5"/>
+
+    <HBox alignment="bottom_right" GridPane.columnIndex="1" GridPane.rowIndex="3">
+        <Button fx:id="button" text="Sign in"
+        onAction="#handleSubmitButtonAction"/>
+    </HBox>
+</GridPane>
