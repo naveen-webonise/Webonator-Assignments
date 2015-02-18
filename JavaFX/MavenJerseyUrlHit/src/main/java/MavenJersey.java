@@ -23,14 +23,15 @@ public class MavenJersey {
         try {
             jsonObject = mapper.writeValueAsString(formData);
 
-            System.out.print(" "+jsonObject.toString());
+
 
             ClientResponse response = webResource.header("auth_token", null)
                     .type(MediaType.APPLICATION_FORM_URLENCODED)
                     .accept(MediaType.APPLICATION_JSON)
                     .post(ClientResponse.class, jsonObject.toString());
             String jsonData = response.getEntity(String.class);
-            System.out.println(jsonData);
+            MyResponse myResponse = mapper.readValue(jsonData,MyResponse.class);
+            System.out.println("MyResponse class contents: "+myResponse);
 
         int status = response.getStatus();
 
