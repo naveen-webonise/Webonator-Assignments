@@ -21,6 +21,7 @@ public class MavenJersey {
         ObjectMapper mapper = new ObjectMapper();
         String jsonObject;
         try {
+            //converts hashmap to json format
             jsonObject = mapper.writeValueAsString(formData);
 
 
@@ -29,7 +30,9 @@ public class MavenJersey {
                     .type(MediaType.APPLICATION_FORM_URLENCODED)
                     .accept(MediaType.APPLICATION_JSON)
                     .post(ClientResponse.class, jsonObject.toString());
+            //gets json data from response
             String jsonData = response.getEntity(String.class);
+            //maps json data in response to pojo class
             MyResponse myResponse = mapper.readValue(jsonData,MyResponse.class);
             System.out.println("MyResponse class contents: "+myResponse);
 
