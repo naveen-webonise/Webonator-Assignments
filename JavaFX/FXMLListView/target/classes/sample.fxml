@@ -1,0 +1,14 @@
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<GridPane fx:controller="sample.Controller" xmlns:fx="http://javafx.com/fxml">
+    <ListView fx:id="listView">
+
+
+
+
+    </ListView><Label fx:id="label" layoutX="10" layoutY="115"/>
+
+</GridPane>
